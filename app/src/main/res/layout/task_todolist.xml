@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:weightSum="10"
+    android:background="#43e2d5">
+
+    <TextView
+        android:id="@+id/nametask"
+        android:textColor="#0d0d0d"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:text="con viec"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/imvdelete"
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/x" />
+    <ImageView
+        android:id="@+id/imvedit"
+       android:src="@drawable/pen"
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:layout_height="50dp" />
+</LinearLayout>

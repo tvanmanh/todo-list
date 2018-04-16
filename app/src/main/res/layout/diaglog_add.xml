@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6fd156">
+<TextView
+    android:id="@+id/title"
+    android:padding="16dp"
+    android:gravity="center"
+    android:textColor="#03057b"
+    android:textSize="30dp"
+    android:text="Add Your Task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:textColor="#2e2d2d"
+        android:hint="typing your task here"
+        android:id="@+id/editAdd"
+        android:padding="16dp"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Add"
+        android:id="@+id/btnAdd"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/editAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="cancel"
+        android:id="@+id/btncancel"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/editAdd"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
